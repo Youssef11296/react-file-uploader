@@ -1,6 +1,9 @@
-*, *::after, *::before{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family: sans-serif;
+@import './sass';
+
+.app {
+  h1 {
+    color: $main-color;
+    text-align: center;
+    margin-top: 4rem;
+  }
 }
