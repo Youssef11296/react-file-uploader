@@ -27,6 +27,8 @@ const UploadForm = () => {
     }
   };
 
+  console.log({ file });
+
   return (
     <form className="upload__form">
       <div className="input__field">

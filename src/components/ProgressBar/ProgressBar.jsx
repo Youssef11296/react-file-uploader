@@ -11,8 +11,10 @@ const ProgressBar = ({ file, setFile }) => {
     setTimeout(() => {
       setFile(null);
     }, 5000);
-    console.log(url);
+    console.log({ url });
   }
+  console.log({ url });
+
   return (
     <div className="progress__bar" style={{ width: progress + "%" }}></div>
   );
